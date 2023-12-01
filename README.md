@@ -2,6 +2,15 @@
 Similar to the AOS library however less complicated and more simple! Adjustments will be made in the future. Refer to the readme.
 
 ## Installation:
+Place both within your <head> tag:
+
+```
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sup3r0001/Scroll-Animator@1.0.0/Scroll%20Animator/scrollanimator.css">
+```
+
+```
+<script src="https://cdn.jsdelivr.net/gh/sup3r0001/Scroll-Animator@1.0.0/Scroll%20Animator/scrollanimator.js"></script>
+```
 
 ## Usage:
 After installing SA, to use it, just call any of these class names!
