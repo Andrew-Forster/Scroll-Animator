@@ -100,7 +100,7 @@ html {
 .sa-duration4 {
     transition: 4s;
 }
-.sa-duration0_4 {
+.sa-duration4_5 {
     transition: 4.5s;
 }
 .sa-duration5 {
@@ -175,10 +175,40 @@ html {
 .sa-delay4 {
     transition-delay: 4s;
 }
-.sa-delay0_4 {
+.sa-delay4_5 {
     transition-delay: 4.5s;
 }
 .sa-delay5 {
     transition-delay: 5s;
+}
+.sa-delay5_5 {
+    transition-delay: 5.5s;
+}
+.sa-delay6 {
+    transition-delay: 6s;
+}
+.sa-delay6_5 {
+    transition-delay: 6.5s;
+}
+.sa-delay7 {
+    transition-delay: 7s;
+}
+.sa-delay7_5 {
+    transition-delay: 7.5s;
+}
+.sa-delay8 {
+    transition-delay: 8s;
+}
+.sa-delay8_5 {
+    transition-delay: 8.5s;
+}
+.sa-delay9 {
+    transition-delay: 9s;
+}
+.sa-delay9_5 {
+    transition-delay: 9.5s;
+}
+.sa-delay10 {
+    transition-delay: 10s;
 }
 
