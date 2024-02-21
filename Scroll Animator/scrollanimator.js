@@ -14,7 +14,7 @@ function reveal(classNames, elementVisible) {
 }
 // Add event listener to trigger reveal function on scroll
 window.addEventListener("scroll", function () {
-    reveal([".sa", ".sa-zoom", ".sa-flip", ".sa-right"], 250);
+    reveal([".sa", ".sa-zoom", ".sa-flip", ".sa-right", ".sa-shift"], 250);
 });
 
 
