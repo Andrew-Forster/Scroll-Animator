@@ -51,16 +51,13 @@ Flips object
 <div class="sa sa-duration0_1"></div>
 ```
 
-Time options Include:
-- 0_1 - 0_9
-- 1
-- 1_5
-- 2
-- 2_5
+Time format: {second}_{millisecond}
 
-Etc, up until 5 seconds.
+MIN: 0_1s
 
-Duration increments by seconds, the underscore is substituted for a dot. 
+MAX: 15s
+
+*The underscore is substituted for a dot.* 
 
 
 ### Delay:
@@ -70,16 +67,13 @@ Duration increments by seconds, the underscore is substituted for a dot.
 <div class="sa sa-delay0_4></div>
 ```
 
-Time options Include:
-- 0_1 - 0_9
-- 1
-- 1_5
-- 2
-- 2_5
+Time format: {second}_{millisecond}
 
-Etc, up until 5 seconds.
+MIN: 0_1s
 
-Delay increments by seconds, the underscore is substituted for a dot. 
+MAX: 15s
+
+*The underscore is substituted for a dot.* 
 
 ### Easing:
 
@@ -107,3 +101,29 @@ Delay increments by seconds, the underscore is substituted for a dot.
 ``` html
 <div class="sa sa-ease"></div>
 ```
+
+
+## ON-LOAD Shift
+
+- **onload_shift**:
+
+Slides object in from the left with a bounce
+``` html
+<div class="onload_shift"></div>
+```
+
+- **onload_shift_delay{time}**:
+
+Slides object in from the left with a bounce and a delay.
+``` html
+<div class="onload_shift_delay5-5"></div>
+```
+
+Time format: {second}-{millisecond}
+
+MIN: 0-1s
+
+MAX: 15s
+
+*The hyphen is substituted for a dot.* 
+
