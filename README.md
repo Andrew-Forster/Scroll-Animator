@@ -5,11 +5,11 @@ Similar to the AOS library however less complicated and more simple! Adjustments
 Place both within your head tag:
 
 ``` html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sup3r0001/Scroll-Animator@1.0.0/Scroll%20Animator/scrollanimator.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sup3r0001/Scroll-Animator@latest/Scroll%20Animator/scrollanimator.css">
 ```
 
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/sup3r0001/Scroll-Animator@1.0.0/Scroll%20Animator/scrollanimator.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sup3r0001/Scroll-Animator@latest/Scroll%20Animator/scrollanimator.js"></script>
 ```
 
 ## Usage:
