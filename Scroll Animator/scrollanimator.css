@@ -14,10 +14,23 @@ html {
     opacity: 1;
 }
 
+.sa-shift{
+    transform: translateX(-6%);
+    opacity: 0;
+    transition-delay: 1s;
+    transition: 1s;
+}
+
+.sa-shift.active {
+    animation: smoothShift 0.4s ease-in-out 1s 1 forwards ;
+    opacity: 1;
+}
+
 .sa-right {
     transform: translateX(250px);
     opacity: 0;
     transition-delay: 1s;
+    transition: 1s;
     overflow: hidden;
 }
 
@@ -30,6 +43,7 @@ html {
 .sa-zoom {
     transform: scale(0);
     opacity: 0;
+    transition: 1s;
     transition-delay: 1s;
 }
 
@@ -42,6 +56,7 @@ html {
 .sa-flip {
     transform: rotate3d(0, 1, 0, 90deg);
     opacity: 0;
+    transition: 1s;
     transition-delay: 0s;
 
 }
