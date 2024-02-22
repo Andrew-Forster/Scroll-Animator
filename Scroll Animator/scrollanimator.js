@@ -8,7 +8,9 @@ function reveal(classNames, elementVisible) {
         if (elementTop < windowHeight - elementVisible) {
             elements[i].classList.add("active");
         } else {
-            elements[i].classList.remove("active");
+            if (!elements[i].classList.contains("sa-shift")) {
+                elements[i].classList.remove("active");
+            }
         }
     }
 }
@@ -16,6 +18,3 @@ function reveal(classNames, elementVisible) {
 window.addEventListener("scroll", function () {
     reveal([".sa", ".sa-zoom", ".sa-flip", ".sa-right", ".sa-shift"], 250);
 });
-
-
-
