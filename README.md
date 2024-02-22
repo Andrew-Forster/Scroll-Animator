@@ -44,6 +44,13 @@ Flips object
 <div class="sa-flip"></div>
 ```
 
+- **sa-shift**:
+
+Slides object in from the left with a bounce
+``` html
+<div class="sa-flip"></div>
+```
+
 ### Duration:
 
 **sa-duration{time}**
