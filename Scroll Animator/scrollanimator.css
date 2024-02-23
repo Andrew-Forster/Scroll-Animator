@@ -236,7 +236,10 @@ html {
 
 .sa-easeoutcubic {
     transition-timing-function: cubic-bezier(.25, .46, .45, .94);
+}
 
+.sa-easeincubic {
+    transition-timing-function: cubic-bezier(.55, .085, .68, .53);
 }
 
 /* End of Easing Settings */
