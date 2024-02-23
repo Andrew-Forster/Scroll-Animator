@@ -15,6 +15,7 @@ Place both within your head tag:
 ## Usage:
 After installing SA, to use it, just call any of these class names!
 
+
 ### Animation Styles:
 - **sa**:
 
@@ -51,6 +52,18 @@ Slides object in from the left with a bounce
 <div class="sa-flip"></div>
 ```
 
+
+### Scroll Animation Threshold
+
+**data-sa-threshold="{px height}"**
+``` html
+<div class="sa" data-sa-threshold="400"></div>
+```
+
+_Default value is: 250._
+
+
+
 ### Duration:
 
 **sa-duration{time}**
@@ -67,6 +80,7 @@ MAX: 15s
 *The underscore is substituted for a dot.* 
 
 
+
 ### Delay:
 
 **sa-delay{time}**
@@ -81,6 +95,8 @@ MIN: 0_1s
 MAX: 15s
 
 *The underscore is substituted for a dot.* 
+
+
 
 ### Easing:
 
@@ -110,6 +126,42 @@ MAX: 15s
 ```
 
 
+
+### Animation Grouping
+
+Animation Grouping is a way to group scroll animations 
+so that they can trigger at the same breakpoint with no issues! 
+It applies to the parent element of a animation group
+
+- **sa-group** 
+
+``` html
+<div class="sa-group">
+  <h3 class="sa">Some Head Text!</h3>
+  <p class="sa">Some paragrapg text.</p>
+</div>
+```
+
+
+**AG Nesting**
+
+_SA does support nesting Animation Groups, 
+AG nesting requires another sa-group class on the very next parent to work. 
+
+See Usage below_!
+
+``` html
+<div class="sa-group">
+  <h2 class="sa">Side Head Text!/h2>
+  <div class="sa-group">
+    <h3 class="sa">Some Head Text!</h3>
+    <p class="sa ">Some paragrapg text.</p>
+  </div>
+</div>
+```
+
+
+
 ## ON-LOAD Shift
 
 - **onload_shift**:
@@ -133,4 +185,6 @@ MIN: 0-1s
 MAX: 15s
 
 *The hyphen is substituted for a dot.* 
+
+
 
