@@ -125,6 +125,18 @@ MAX: 15s
 <div class="sa sa-ease"></div>
 ```
 
+- **sa-easeincubic**
+
+``` html
+<div class="sa sa-easeincubic"></div>
+```
+
+- **sa-easeoutcubic**
+
+``` html
+<div class="sa sa-easeoutcubic"></div>
+```
+
 
 
 ### Animation Grouping
